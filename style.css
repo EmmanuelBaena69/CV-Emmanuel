@@ -67,6 +67,60 @@ body{
     font-weight: 300;
 }
 
+.contact{
+    padding-top: 40px;
+}
+
+.contact ul{
+    position: relative;
+}
+
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10 px 0;
+    cursor: pointer;
+}
+
+.contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contact ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact.education li{
+    margin-bottom: 15px;
+}
+
+.contact.education h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contact.education h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+
+.contact.education h4{
+    color: #fff;
+    font-weight: 300;
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
 .container .left_side{
     position: relative;
     background-color: #003147;

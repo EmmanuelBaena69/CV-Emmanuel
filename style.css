@@ -94,6 +94,11 @@ body{
     font-weight: 300;
 }
 
+.contact ul li a{
+    color: #fff;
+    font-weight: 300;
+}
+
 .contact.education li{
     margin-bottom: 15px;
 }

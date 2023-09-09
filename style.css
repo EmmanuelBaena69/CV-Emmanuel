@@ -118,6 +118,94 @@ body{
     font-weight: 300;
 }
 
+.contact.languages .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.contact.languages .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #03a9f4;
+}
+
+.about{
+    margin: 50px 50px;
+    margin-bottom: 50px;
+}
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+}
+.skills .box  .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #03a9f4;
+}
+
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 3px;
+}
+
+p{
+    letter-spacing: 0.5px;
+    color: #333;
+    font-weight: 500;
+}
+
+.about li{
+    letter-spacing: 0.5px;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.interest ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.interest ul li .fa{
+    color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
+}
+
 .title{
     color: #fff;
     text-transform: uppercase;
@@ -137,3 +225,14 @@ body{
     background-color: #fff;
     padding: 40px;
 }
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .interest ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
